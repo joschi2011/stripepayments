@@ -14,6 +14,8 @@ gem 'rails_12factor', group: :production
 gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Add stripe for payment processing
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
