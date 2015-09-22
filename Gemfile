@@ -16,6 +16,8 @@ gem 'bootstrap-sass'
 gem 'sass-rails', '~> 5.0'
 # Add stripe for payment processing
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+# Figaro to securely manage credentials
+gem 'figaro'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
