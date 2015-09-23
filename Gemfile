@@ -18,6 +18,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro to securely manage credentials
 gem 'figaro'
+# Add letter opener for handling emails in development
+gem 'letter_opener', group: :development
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
