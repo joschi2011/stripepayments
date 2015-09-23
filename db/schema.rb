@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150922220005) do
+ActiveRecord::Schema.define(version: 20150923155041) do
 
   create_table "purchases", force: :cascade do |t|
     t.datetime "created_at",  null: false
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20150922220005) do
     t.string   "customer_id"
     t.string   "card"
     t.integer  "product_id"
+    t.string   "uuid"
   end
 
 end
