@@ -20,6 +20,10 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'figaro'
 # Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
+# Adding an admin interface
+gem 'activeadmin', github: 'gregbell/active_admin'
+# Adding devise for user management
+gem 'devise'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
